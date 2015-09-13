@@ -1,0 +1,80 @@
+@media screen and (min-width: 480px) {  /****this rule will only work if the website appears on a digital screen and only if the minimum resolution is 480px****/
+	
+/******************************************************
+Two Column Layout
+*******************************************************/
+	
+	#primary {
+		width: 50%;
+		float: left;
+	}
+	
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+	
+	
+	
+	
+/******************************************************
+Page: Portfolio
+*******************************************************/
+	
+	#gallery li {
+		width: 28.3333%;
+	}
+	
+	#gallery li:nth-child(4n) {  /****any styling here will be applied to the fourth item to fix the strange breakage of the images****/
+		clear: left;
+	}
+	
+/******************************************************
+Page: About
+*******************************************************/
+	
+	.profile-photo {
+		float: left;
+		margin: 0 5% 80px 0;
+	}
+
+}
+
+@media screen and (min-width: 660px) {
+	
+/******************************************************
+Header
+*******************************************************/
+	
+	nav {
+		background: none; 
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: right;
+		width: 45%;
+	}
+	
+	#logo {
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+	}
+	
+	h1 {
+		font-size: 2.5em;
+	}
+	
+	h2 {
+		font-size: 0.825em;
+		margin-bottom: 20px;
+	}
+	
+	header {
+		border-bottom: 5px solid #00008b; /****adds a darker color of blue to the bottom of the header when you reach 660px****/
+		margin-bottom: 60px;
+	}
+	
+	
+}
